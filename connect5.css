@@ -1,0 +1,87 @@
+body {
+    width: 600px;
+    margin: 400px;
+    background: #76ada8;
+}
+
+div {
+    width: 0%;
+    padding: 1px;
+    margin: -200px 0px 0px 0px;
+}
+
+.p {
+    position: absolute;
+    color: rgb(5, 5, 5);
+    font-size: 60px;
+    width: auto;
+    margin-top: 5px;
+    height: 100px;
+    color: rgb(0, 0, 0);
+    font-family: "OCR A Std, monospace";
+    font-variant: small-caps;
+    padding: 10px;
+    margin-left: 415px;
+    width: 35%;
+    text-align: center;
+}
+
+.cell {
+    position: absolute;
+    width: 20px;
+    height: 20px;
+    border-radius: 30%;
+    margin: 100px;
+    background-color: rgba(0, 0, 0, 0.856);
+}
+
+div #stage {
+    position: absolute;
+}
+
+div :hover {
+    background-color: transparent;
+}
+
+p#demo {
+    color: black;
+    font-family: "OCR A Std, monospace";
+    font-variant: small-caps;
+    font-size: 30px;
+    text-align: center;
+    margin-top: 100px;
+    font-weight: bold;
+    margin-left: 440px;
+    width: 80%;
+}
+
+#count {
+    color: rgb(2, 2, 2);
+    margin-left: 623px;
+    margin-top: 30px;
+    padding: 15px 0px 15px 0px;
+    border: 1px dotted black;
+    text-align: center;
+    width: 20%;
+}
+
+#myPopup {
+    visibility: visible;
+    width: 500px;
+    background: transparent;
+    color: rgba(0, 0, 0, 0.842);
+    text-align: center;
+    padding: 0px;
+    position: absolute;
+    margin-left: 440px;
+    margin-top: 40px;
+    font-size: 40px;
+    font-family: "OCR A Std, monospace";
+    animation: blinker 1s linear infinite;
+}
+
+@keyframes blinker {
+    50% {
+        opacity: 0;
+    }
+}
